@@ -31,7 +31,7 @@ python main_knn.py --model simsiam_gsg --dist-url 'tcp://localhost:10001' \
 ```
 python main_lincls.py --dist-url 'tcp://localhost:10001' \
   --multiprocessing-distributed --world-size 1 --rank 0 \
-  --pretrained [path to a pre-trained checkpoint] \
+  --pretrained [path to a pre-trained checkpoint] --lars \
   [your imagenet-folder with train and val folders]
 ```
 
